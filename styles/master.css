@@ -16,7 +16,7 @@
 
 .containerMoto{
     background-color: #0B1001;
-    height: 200px;
+    height: 25vh;
     /*Empieza Flexbox*/
     display: flex; /*pone todos los elem en línea horizontal*/
     justify-content: center; /*acomoda todos los el a ala izquierda
@@ -48,7 +48,7 @@
 
 .font1{
     font-family: sans-serif;
-    font-size:60px;
+    font-size:10vh;
     color: #d6d3d0;
   }
 
