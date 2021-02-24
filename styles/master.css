@@ -13,17 +13,20 @@
     display: flex;
     justify-content: center;
 }
+
 .containerMoto{
     background-color: #0B1001;
     height: 200px;
-    /Empieza Flexbox/
-    display: flex; /pone todos los elem en línea horizontal/
-    justify-content: center; /acomoda todos los el a ala izquierda/
-    /Flexdirection/
+    /*Empieza Flexbox*/
+    display: flex; /*pone todos los elem en línea horizontal*/
+    justify-content: center; /*acomoda todos los el a ala izquierda
+    Flexdirection*/
     flex-direction: column;
     align-items: center;
-    gap: 5px; /separación entre elementos o margen en lugar de margin/
+    gap: 5px; /*separación entre elementos o margen en lugar de margin*/
 }
+
+
  .textCenter{
      text-align: center;
  }
@@ -61,14 +64,17 @@
      background-color:#d6d3d0;
  }
 
- /Maps/
+ /*maps*/
  .container1{
     display:flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
+
 #map{
-    width:50%;
-    height: 600px;
+    width:35%;
+    height: 400px;
     margin:0px;
     padding: 0px;
 }
+
