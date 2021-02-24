@@ -1,0 +1,74 @@
+.backColor{
+    background-color: #d6d3d0;
+}
+.carousel-size{
+    height: 625px;
+
+}
+.carousel-item img{
+    object-fit: cover;
+}
+
+.containerLogo{
+    display: flex;
+    justify-content: center;
+}
+.containerMoto{
+    background-color: #0B1001;
+    height: 200px;
+    /Empieza Flexbox/
+    display: flex; /pone todos los elem en línea horizontal/
+    justify-content: center; /acomoda todos los el a ala izquierda/
+    /Flexdirection/
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /separación entre elementos o margen en lugar de margin/
+}
+ .textCenter{
+     text-align: center;
+ }
+
+ .pimg1, .pimg2{
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ .pimg1{
+     background-image: url('../img/PanoramaLogo.jpeg');
+     height: 700px;
+ }
+ .pimg2{
+    background-image: url('../img/NochebuenaPanorama.jpg');
+    height: 700px;
+}
+
+.font1{
+    font-family: sans-serif;
+    font-size:60px;
+    color: #d6d3d0;
+  }
+
+  .fontGen{
+    font-family: sans-serif;
+    color: #d6d3d0;
+  }
+  .fontGenGreen{
+    font-family: sans-serif;
+    color: #0B1001;
+  }
+ .backContColor{
+     background-color:#d6d3d0;
+ }
+
+ /Maps/
+ .container1{
+    display:flex;
+    justify-content: space-around;
+}
+#map{
+    width:50%;
+    height: 600px;
+    margin:0px;
+    padding: 0px;
+}
