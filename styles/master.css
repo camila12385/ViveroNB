@@ -16,7 +16,7 @@
 
 .containerMoto{
     background-color: #0B1001;
-    height: 25vh;
+    height: 200px;
     /*Empieza Flexbox*/
     display: flex; /*pone todos los elem en línea horizontal*/
     justify-content: center; /*acomoda todos los el a ala izquierda
@@ -48,8 +48,31 @@
 
 .font1{
     font-family: sans-serif;
-    font-size:10vh;
     color: #d6d3d0;
+  }
+
+  @media screen and (min-width: 600px) {
+    .font2 {
+      font-size: 60px;
+    }
+
+    .containerMoto{
+        height: 200px;
+    }
+
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .font2{
+      font-size: 30px;
+    }
+
+    .containerMoto{
+        height: 90px;
+    }
+
+    
   }
 
   .fontGen{
