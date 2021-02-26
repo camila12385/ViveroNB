@@ -103,3 +103,8 @@
     padding: 0px;
 }
 
+.logoflotante{
+    position: absolute;
+    float: left;
+}
+
